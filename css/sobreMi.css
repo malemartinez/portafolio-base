@@ -1,0 +1,72 @@
+/* variables */
+:root{
+    --primary-color:#984063;
+    --secondary-color:#f2f2f2ff;
+    --font-size-p: 1.6rem;
+    --font-size-h2: 3rem;
+    --font-size-h3: 2rem;
+    --line-border-color: #dddfe5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Original Surfer', cursive;
+}
+
+html{
+    font-size: 65.2%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+/* estilos para el header */
+header{
+    position: fixed;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.329);
+}
+header nav .nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+header nav ul .menu-item{
+    padding: 7px 25px;
+    margin: 0 15px;
+}
+header nav ul .menu-item:hover{
+    background-color: #984063;
+    border-radius: 20px;
+    color: white;
+}
+
+header nav ul li a{
+    color: black;
+    font-size: 2rem;
+    display: block;
+}
+
+header nav ul .nav-contacto{
+    padding: 0.7rem 2.5rem;
+    background-color: #984063;
+    border-radius: 20px;
+    color: white;
+}
+
+header nav ul .nav-contacto:hover{
+    color: black;
+    background-color:#984063a1 ;
+}

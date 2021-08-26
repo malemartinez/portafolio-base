@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ContactoLapto.css">
+    <link rel="stylesheet" href="./css/ContactoTablet.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="./css/ContactoMobile.css" media="screen and (max-width: 600px)">
+        <!-- links de las fuentes -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+    
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu-tootgle">
+            <div class="Menu-reponsive">
+                <button class="btn-menu-responsive" href="">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+        <nav class="nav" >
+            <ul class="nav-menu menu-oculto">
+                <li><a class="menu-item" href="./index.html">INICIO <span></span></a></li>
+                <li ><a class="menu-item" href="./blog.html" target="_blank" >Blog</a></li>
+                <li ><a class="menu-item" href="./Sobremi.html" target="_blank">Sobre mí</a></li>
+                <li><a href="./contacto.html" class=" menu-item nav-contacto" >Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto" class="section-contacto">
+            <figure class="img-contact-container">
+                <img src="./imagenes/foto perfil2.png" alt="imagenPerfil" class="img-contact">
+            </figure>
+            <div class="main-section-contacto">
+                <div class="section-contacto-Contactame">
+                    <h3>Contáctame</h3>
+                    <p>Si te gusta lo que ves y quieres hablarme, visita mis redes o deja un mensaje</p>
+                    <ul class="Social-media-container">
+                        <li>
+                            <a href="https://www.instagram.com/malemartinezsa/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                @malemartinezsa</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/malemartinez/" target="_blank">
+                                <i class="fab fa-github"></i>
+                                @malemartinez</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/malemartinez/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                                @malemartinez</a>
+                        </li>
+                        <li>
+                            <a href="mailto:martinezmayra605@gmail.com" >
+                                <i class="fas fa-envelope-square"></i>
+                                martinezmayra605@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form action="" class="form-container">
+                    <h3 class="title-form">Escribeme</h3>
+                    <div class="flex-form">
+                        <div class="info-container flex">
+                            <label for="nombre">Nombre</label>                 
+                            <input class="input" type="text" placeholder="Nombre">
+                        </div>
+                        <div class="info-container flex">
+                            <label for="apellido"> Apellido</label>
+                            <input class="input" type="text" placeholder="Apellido">
+                        </div> 
+                    </div>
+                     
+
+                    <div class="info-container  email-container">
+                        <label for="Email"> Email</label><br>
+                        <input class="input" type="email" placeholder="ejemplo@ejemplo.com">
+                        
+                    </div>
+                    
+                    <div class="info-container mss-container">
+                        <label for="Mensaje"> Mensaje</label>
+                        <textarea name="" id="" cols="10" rows="10" placeholder="Escribe tu mensaje aquí"></textarea>
+                        <button>Enviar</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="redes-icons">
+            <li><a href="https://www.instagram.com/malemartinezsa/" target="_blank" >
+                    <i class="fab fa-instagram circulo-redes"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/malemartinez/" target="_blank">
+                    <i class="fab fa-github circulo-redes"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/malemartinez/" target="_blank">
+                    <i class="fab fa-linkedin circulo-redes"></i></a>
+            </li>
+            <li>
+                <a href="mailto:martinezmayra605@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-square circulo-redes"></i></a>
+            </li>
+        </ul>
+        
+        <div>
+            <p class="msm-footer">Hecho con ❤ por Aleja Martínez</p>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

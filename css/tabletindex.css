@@ -1,0 +1,28 @@
+main .section-hello-presentation{
+    align-items:center ;
+}
+main .section-contacto{
+    padding:50px;
+}
+main .main-section-contacto{
+    flex-direction: column;
+}
+main .section-contacto-Contactame{
+    width: 100%;
+}
+main .Social-media-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+main .Social-media-container li{
+    width: 50%;
+    margin: 0px;
+}
+main .Social-media-container li a{
+    font-size: 1.5rem;
+}
+.form-container{
+    width: 100%;
+}
