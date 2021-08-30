@@ -5,32 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/sobreMi.css">
+    <!-- <link rel="stylesheet" href="./tablet.css" media="(min-width: 640px)"> -->
+    <!-- links de las fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
     <title>Sobre mí</title>
 </head>
 <body>
-    <header>
-        <nav >
-            <ul class="nav-menu">
-                <li class="submenu menu-item">
-                    <a  href="./index.html" target="_blank">INICIO <span></span></a>
-                </li>
+    <header class="header">
+        <div class="menu-tootgle">
+            <div class="Menu-reponsive">
+                <button class="btn-menu-responsive" href="">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+        <nav class="nav" >
+            <ul class="nav-menu menu-oculto">
+                <li><a class="menu-item" href="./index.html">INICIO <span></span></a></li>
                 <li ><a class="menu-item" href="./blog.html" target="_blank" >Blog</a></li>
                 <li ><a class="menu-item" href="#" target="_blank">Sobre mí</a></li>
-                <li><a href="./index.html" class="nav-contacto" target="_blank">Contacto</a></li>
+                <li><a href="./contacto.html"  target="_blank" class=" menu-item nav-contacto" >Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <div>
-                <h6>¿Quien está detrás de este portafolio?</h6>
-                <h1>Hola soy Alejandra</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum possimus obcaecati veritatis. Ullam laudantium ex quam incidunt ea. In vel, sunt saepe ducimus soluta voluptatum. Quas corrupti cum unde. Expedita?</p>
-            </div>
+            <section class="section-contacto">
+
+                <figure>
+                    <img src="./imagenes/foto perfil2.png" alt="imagenPerfil" class="img-contact" alt="">
+                </figure>
+                <div>
+                    <h6>¿Quien está detrás de este portafolio?</h6>
+                    <h1>Hola soy Alejandra</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum possimus obcaecati veritatis. Ullam laudantium ex quam incidunt ea. In vel, sunt saepe ducimus soluta voluptatum. Quas corrupti cum unde. Expedita?</p>
+                </div>
+            </section>
         </div>
     </main>
+    <footer>
+        
+        <ul class="redes-icons">
+            <li><a href="https://www.instagram.com/malemartinezsa/" target="_blank" >
+                    <i class="fab fa-instagram circulo-redes"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/malemartinez/" target="_blank">
+                    <i class="fab fa-github circulo-redes"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/malemartinez/" target="_blank">
+                    <i class="fab fa-linkedin circulo-redes"></i></a>
+            </li>
+            <li>
+                <a href="mailto:martinezmayra605@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-square circulo-redes"></i></a>
+            </li>
+        </ul>
+        
+        <div>
+            <p class="msm-footer">Hecho con ❤ por Aleja Martínez</p>
+        </div>
+    </footer>
 </body>
 </html>
