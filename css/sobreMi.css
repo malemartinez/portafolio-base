@@ -79,7 +79,7 @@ body{
 /* estilos para el main section */
 main .section-contacto{
     background-color: #f2f2f2ff;
-    padding: 100px 60px;
+    padding: 100px 150px;
     margin-top: 30px;
 }
 .img-contact-container{
@@ -94,6 +94,29 @@ main .section-contacto{
     border-radius: 50%;
 }
 
+.section-flex-container{
+    display: flex;
+}
+.section-flex-container figure{
+    margin-right: 80px;
+}
+.contact-flex-container{
+    max-width: 700px;
+}
+.question-contact{
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.title-contact{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.text-contact{
+    font-size: 1.7rem;
+    line-height: 24px;
+    font-weight: bold;
+}
 /* footer */
 footer{
     display: flex;
@@ -123,7 +146,7 @@ footer{
     color: var(--primary-color);
     border: 1px solid #fff;
 }
-.redes-icons .circulo-redes:hover{
+.redes-icons .circulo-redes:hover {
     background-color: var(--primary-color);
     color: white;
 }
