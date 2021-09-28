@@ -79,29 +79,32 @@ body{
 /* estilos para el main section */
 main .section-contacto{
     background-color: #f2f2f2ff;
-    padding: 100px 150px;
-    margin-top: 30px;
+    /* padding: 100px 150px; */
+    width: 80%;
+    margin: 50px auto;
 }
-.img-contact-container{
-    /* position: relative; */
+/* .img-contact-container{
+    position: relative;
     top: -100px;
     display: flex;
     justify-content: center;
-}
+} */
 .img-contact{
-    /* position: absolute; */
     width: 300px;
     border-radius: 50%;
 }
 
 .section-flex-container{
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 .section-flex-container figure{
-    margin-right: 80px;
+    margin-right: 50px;
 }
 .contact-flex-container{
-    max-width: 700px;
+    flex-basis: 50%;
+    flex-grow: 1;
 }
 .question-contact{
     font-size: 1.9rem;
@@ -152,4 +155,5 @@ footer{
 }
 .msm-footer{
     font-family: 'Original Surfer', cursive;
+    text-align: center;
 }

@@ -1,0 +1,12 @@
+.section-flex-container{
+    justify-content: space-evenly;
+}
+.img-contact{
+    margin-bottom: 20px;
+}
+.section-flex-container figure{
+    margin-right:0px;
+}
+.question-contact, .title-contact {
+    text-align: center;
+}
