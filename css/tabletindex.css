@@ -1,6 +1,15 @@
 main .section-hello-presentation{
     align-items:center ;
 }
+main .section-conocimiento li{
+    width: 200px;
+}
+main .section-proyectos li{
+    width: 200px;
+}
+main .section-proyectos img{
+    width: 150px;
+}
 main .section-contacto{
     padding:50px;
 }

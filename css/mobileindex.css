@@ -11,11 +11,11 @@ header .menu-tootgle{
     justify-content: flex-end;
     background-color: var(--primary-color);
     width: 100%;
-    height: 80px;
+    height: 60px;
 }
 .btn-menu-responsive{
    font-size: 30px;
-   line-height: 80px;
+   line-height: 60px;
    margin-right: 25px;
    color:#3f3d56ff;
    border: none;
@@ -88,15 +88,7 @@ main .section-hello-presentation h1{
 main .section-hello img{
     width: 250px;
 }
-main .section-conocimiento li{
-    width: 200px;
-}
-main .section-proyectos li{
-    width: 200px;
-}
-main .section-proyectos img{
-    width: 150px;
-}
+
 main .Social-media-container{
     flex-direction: column;
 }
@@ -111,4 +103,8 @@ main .main-section-contacto{
 }
 .flex{
     width: 100%;
+}
+/* seccion de proyectos */
+main .section-proyectos{
+    padding: 100px 20px;
 }

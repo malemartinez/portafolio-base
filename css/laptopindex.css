@@ -25,8 +25,6 @@ a{
 p{
     font-family: 'Roboto', sans-serif;
 }
-
-
 /* estilos para el header */
 
 .nav{
@@ -43,7 +41,6 @@ p{
 }
 .nav-menu li{
     width: max-content;
-
 }
 .menu-item{
     padding: 7px 25px;
@@ -58,7 +55,6 @@ p{
 }
 
 .menu-item.nav-contacto{
-
     background-color: #984063;
     border-radius: 20px;
     color: white;
@@ -89,7 +85,6 @@ main .section-hello-presentation{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
 main .section-hello-presentation h2{
     font-size: 3rem;
@@ -103,6 +98,7 @@ main .section-hello-presentation h1{
 main .section-hello-presentation p{
     font-size: 1.6rem;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 main .section-hello-presentation div a{
@@ -128,7 +124,7 @@ main .section-hello img{
 /* estilos generales */
 main .section-conocimiento{
     background-color: #f2f2f2ff;
-    padding: 10rem 2rem;
+    padding: 100px 20px;
     text-align: center;
 }
 
@@ -186,7 +182,7 @@ main .section-conocimiento li:hover{
 
 main .section-proyectos{
     background-color: var(--primary-color);
-    padding: 10rem 2rem;
+    padding: 100px 60px;
     text-align: center;
 }
 main .section-proyectos div{
@@ -398,4 +394,5 @@ footer{
 }
 .msm-footer{
     font-family: 'Original Surfer', cursive;
+    text-align: center;
 }
