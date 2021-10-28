@@ -91,7 +91,9 @@ main .section-contacto{
 } */
 .img-contact{
     width: 300px;
+    height: 300px;
     border-radius: 50%;
+    margin-right: 50px;
 }
 
 .section-flex-container{
@@ -107,16 +109,16 @@ main .section-contacto{
     flex-grow: 1;
 }
 .question-contact{
-    font-size: 1.9rem;
+    font-size: 3rem;
     font-weight: 300;
     margin-bottom: 10px;
 }
 .title-contact{
-    font-size: 2.2rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 }
 .text-contact{
-    font-size: 1.7rem;
+    font-size: 2rem;
     line-height: 24px;
     font-weight: bold;
 }

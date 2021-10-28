@@ -87,16 +87,16 @@ main .section-hello-presentation{
     align-items: flex-start;
 }
 main .section-hello-presentation h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 }
 main .section-hello-presentation h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 25px;
     color:#984063 ;
 }
 main .section-hello-presentation p{
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     margin-bottom: 45px;
     text-align: center;
 }
@@ -124,7 +124,7 @@ main .section-hello img{
 /* estilos generales */
 main .section-conocimiento{
     background-color: #f2f2f2ff;
-    padding: 100px 20px;
+    padding: 100px 0px;
     text-align: center;
 }
 
@@ -182,13 +182,15 @@ main .section-conocimiento li:hover{
 
 main .section-proyectos{
     background-color: var(--primary-color);
-    padding: 100px 60px;
+    padding: 100px 0px;
     text-align: center;
 }
 main .section-proyectos div{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 90%;
 }
 /* estilos especificos */
 main .section-proyectos h3{

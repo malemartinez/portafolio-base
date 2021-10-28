@@ -11,7 +11,7 @@ header .menu-tootgle{
     justify-content: flex-end;
     background-color: var(--primary-color);
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
 .btn-menu-responsive{
    font-size: 30px;
@@ -106,5 +106,5 @@ main .main-section-contacto{
 }
 /* seccion de proyectos */
 main .section-proyectos{
-    padding: 100px 20px;
+    /* padding: 100px 20px; */
 }

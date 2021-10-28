@@ -2,6 +2,7 @@
     justify-content: space-evenly;
 }
 .img-contact{
+    margin-right: 0px;
     margin-bottom: 20px;
 }
 .section-flex-container figure{
@@ -9,4 +10,7 @@
 }
 .question-contact, .title-contact {
     text-align: center;
+}
+.text-contact{
+    padding-left:30px ;
 }
